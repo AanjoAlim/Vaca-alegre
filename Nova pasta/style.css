@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+    color: black;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 48px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.92);
+    top: 0;
+    backdrop-filter: blur(12px);
+    border-bottom: 2px solid rgb(108, 43, 255, 0.07);
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(163, 13, 13, 0.788);
+}
+
+.nav-links a:hover {
+    color: rgb(255, 0, 0);
+}
+.nav-actions{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.nav-cart{
+    color: rgb(255, 136, 0);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.btn-entrar{
+    background-color: rgb(112, 39, 26);
+    color: black;
+    border: none;
+    cursor: pointer;
+    gap: 6px;
+    transform: background .2s, transform .15s ;
+
+}
+.btn-entrar:hover{
+    background-color: rgb(53, 19, 19);
+    transform: translateY(-1px);
+
+}
+.btn-entrar svg{
+    width: 14px;height: 14px;
+}
